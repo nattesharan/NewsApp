@@ -1,0 +1,24 @@
+.logo{
+    width: 100%;
+    height:15%;
+    background-color:lightgray;
+}
+.ima{
+    border-bottom-style:solid;
+    border-top-style: solid;
+    border-left-style: dashed;
+    border-right-style: dashed;
+    width:50px;
+    height: 50px;
+    animation: ima-spin infinite 10s linear;
+}
+.logofont{
+    font-size: 20;
+    color: red;
+    
+
+}
+@keyframes ima-spin{
+    from{ transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
+}
